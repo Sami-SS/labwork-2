@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-nav>
+    <ion-title> Myprojectapp
+    </ion-title>
+  </ion-nav>
+</ion-header>
+
+<ion-content padding> Hello, my name is Sami.
+  <p>This is my first mobile app</p>
+
+  <ion-fab vertical="top" horizontal="end" slat="fixed">
+    <ion-fab-button> <ion-icon name="add">
+    </ion-icon></ion-fab-button>
+  </ion-fab>
+
+  <div class="bar bar-header bar-energized">
+   <h1 class="Title"> Are you happy</h1>
+  </div>
+<ion-list>
+ <p> <ion-checkbox>1</ion-checkbox> Very happy</p>
+ <p> <ion-checkbox> 2</ion-checkbox> happy</p>
+ <p> <ion-checkbox> 3</ion-checkbox> not happy</p>
+<p><ion-checkbox>4</ion-checkbox>very unhappy</p>
+
+</ion-list>
+  
+
+   
+
+  <p><ion-button (click)="presentActionSheet()">
+      ActionSheet
+    </ion-button> </p>
+</ion-content>
